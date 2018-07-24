@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
     public float MovePower = 1f;
-    public float JumpPower = 5f;
+    public float JumpPower = 3f;
 
     Rigidbody2D RB;
 
@@ -31,6 +31,7 @@ public class PlayerMove : MonoBehaviour {
 
     void Move()
     {
+
         Vector3 moveVelocity = Vector3.zero;
 
         if(Input.GetAxis("Horizontal") < 0)

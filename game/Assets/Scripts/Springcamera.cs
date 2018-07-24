@@ -11,7 +11,7 @@ public class Springcamera : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate ()
     {
-        yunvec = GameObject.Find("Yunjae").transform.position;
+        yunvec = GameObject.FindGameObjectWithTag("Player").transform.position;
         transform.position = Vector3.Lerp(transform.position, yunvec +new Vector3(0,0,-10),0.04f);
 	}
 }

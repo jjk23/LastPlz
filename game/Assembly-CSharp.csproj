@@ -61,8 +61,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\FinalPie.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Python.cs" />
+    <Compile Include="Assets\Scripts\specialwood.cs" />
     <Compile Include="Assets\Scripts\Springcamera.cs" />
+    <Compile Include="Assets\Scripts\StageChane2.cs" />
+    <Compile Include="Assets\Scripts\StageChange.cs" />
+    <Compile Include="Assets\Scripts\StageStart.cs" />
+    <Compile Include="Assets\Scripts\WoodSword.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/chan328/Desktop/Summer/LastPlz/game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
