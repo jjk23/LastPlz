@@ -16,20 +16,13 @@ public class FinalPie : MonoBehaviour
     {
         transform.Translate(0, a, 0, Space.World);
         transform.Rotate(new Vector3(0, 0, 1));
-
-    }
-    private void OnCollisionEnter2D(Collision2D ohter)
-    {
-        if (ohter.gameObject.tag.Equals("ground"))
+        if (transform.position.y < -1.5)
         {
-            if (a == 0.05f)
-            {
-                a = -0.05f;
-            }
-            else 
-            {
-                a = 0.05f;
-            }
+            a = 0.05f;
+        }
+        else if (transform.position.y > 1.5)
+        {
+            a = -0.05f;
         }
     }
 }

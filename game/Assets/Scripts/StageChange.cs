@@ -18,7 +18,7 @@ public class StageChange : MonoBehaviour {
     {
         if (other.gameObject.tag.Equals("Player"))
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("stage2");
         }
     }
 }

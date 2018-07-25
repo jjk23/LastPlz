@@ -61,15 +61,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AddSpicy.cs" />
+    <Compile Include="Assets\Scripts\Addspicy2.cs" />
+    <Compile Include="Assets\Scripts\Boss.cs" />
+    <Compile Include="Assets\Scripts\BossPie.cs" />
+    <Compile Include="Assets\Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\FinalPie.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\Python.cs" />
     <Compile Include="Assets\Scripts\specialwood.cs" />
     <Compile Include="Assets\Scripts\Springcamera.cs" />
-    <Compile Include="Assets\Scripts\StageChane2.cs" />
     <Compile Include="Assets\Scripts\StageChange.cs" />
+    <Compile Include="Assets\Scripts\StageChange2.cs" />
+    <Compile Include="Assets\Scripts\StageChange3.cs" />
     <Compile Include="Assets\Scripts\StageStart.cs" />
+    <Compile Include="Assets\Scripts\trapbed.cs" />
     <Compile Include="Assets\Scripts\WoodSword.cs" />
+    <Compile Include="Assets\Scripts\YouJustactivatedmytrapcard.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/chan328/Desktop/Summer/LastPlz/game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
